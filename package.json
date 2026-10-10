@@ -1,0 +1,21 @@
+{
+  "name": "hyper-sina",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hyper Sina (هایپر سینا) — Iranian retail personal accountant: Persian RTL, persistent accounting, USD/inflation aware P&L",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test \"test/**/*.test.js\"",
+    "check": "node scripts/lint.js && node --test \"test/**/*.test.js\"",
+    "lint": "node scripts/lint.js",
+    "build": "node scripts/build.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
