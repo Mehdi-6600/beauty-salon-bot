@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="هایپر سینا">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f7b6c" />
+      <stop offset="1" stop-color="#0a4f57" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#g)" />
+  <circle cx="25" cy="32" r="13.5" fill="none" stroke="#eafaf5" stroke-width="2.6" />
+  <path d="M25 24.5v15M20.6 27.4h8.8M20.6 36.6h8.8" stroke="#eafaf5" stroke-width="2.2" stroke-linecap="round" fill="none" />
+  <path d="M40 41l6.5-8 4.5 4.5L58 27" fill="none" stroke="#7ee0b8" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M53.6 27H58v4.4" fill="none" stroke="#7ee0b8" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

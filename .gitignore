@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Hyper Sina runtime data (SQLite db, generated session secret, pre-reset backups)
+data/
+# Build output
+/dist/
